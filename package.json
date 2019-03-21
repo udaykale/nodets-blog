@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node"
+    "start": "node --require ts-node/register main.ts"
   },
   "dependencies": {
     "typescript": "^3.3.3333",
-    "ts-node": "^8.0.3"
+    "ts-node": "^8.0.3",
+    "express": "~4.16.0"
   },
   "devDependencies": {
-    "@types/node": "^11.11.3"
+    "@types/node": "^11.11.3",
+    "@types/express": "^4.16.0"
   }
 }
